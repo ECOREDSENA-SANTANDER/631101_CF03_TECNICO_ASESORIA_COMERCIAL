@@ -1,106 +1,143 @@
 @use 'variables' as *
 .banner-principal-decorativo
   &-1
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
-  &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
-
-
+    top: 50%
+    right: 26%
+    width: 15%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 50%
+    right: 5%
+    width: 15%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 40% 
+  //@media only screen and (min-width: 1024px)
+    margin-left: 50px
+  @media only screen and (max-width: 1023px)
+    width: 100%
+
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
-    
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
+  width: 40%
+  margin-bottom: 5% !important
 
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
-figcaption 
-    font-weight: normal !important
+  color: black !important   
+//.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  background-color: #D5A77A
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+figcaption
+  font-weight: normal
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 10% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+      margin-bottom: 10% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+.barra-avance__boton--regresar span 
+    color: $color-sistema-texto !important
+
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #8CE6FE !important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #46D9FF
+  background-color: #DBDADA
+
+.cen
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  justify-content: center
+  
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
 
 
-/**************************************************************/
-/***CUSTOM STYLES***/
-/**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
+.bg1
+  background-color: #CCDCE0
+  min-height: 315.899px
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+
+.bloque-texto-g.color-secundario 
+  background-color: #CCDCE0
+
+.bg2
+  background: url('../assets/curso/tema1/f1.png')
   background-size: cover
   background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
+  background-position: center
+  @media (min-width: 992px)
+    min-height: 362.11px
 
+.bg3
+  background-color: #D2E1F1
+  border-radius: 20px
 
+.bg4
+  background-color: #CCDCE0
 
+.tarjeta--slyder.b2
+  background-color: #B5F0FF
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+.slyder-f__btn i 
+  font-size: 4rem
+  color: #F1B616
 
-
-
-
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
-
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
-
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
-
-  
- 
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-
-  
-
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
-
-  
- 
+.fon
+  padding: 1.2rem
+  @media (min-width: 768px)
+    padding: 2.2rem
+  @media (min-width: 1024px)
+    padding: 2.6rem
+.fd1
+  background: url('../assets/curso/tema1/f2.png') bottom / 100% 100% no-repeat
+  margin-inline: -2rem
+  @media (min-width: 768px)
+    margin-inline: -3rem
+  @media (min-width: 993px)
+    margin-inline: -3.4rem
