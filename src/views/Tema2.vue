@@ -7,6 +7,7 @@
         span 2
       h1 Variables de información
 
+<<<<<<< HEAD
     .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
       .col-lg-12
         .bloque-texto-g.color-secund.p-3.p-lg-5.p-md-4
@@ -20,12 +21,16 @@
             p.mb-0 Por ejemplo, al estudiar el comportamiento de los clientes de un establecimiento comercial pueden considerarse variables como la edad, medio de pago, frecuencia de compra, nivel de satisfacción, cantidad de productos adquiridos o valor de la compra. Cada una aporta información diferente y puede requerir una forma particular de registro y análisis.
 
     p.mb-0 Identificar correctamente las variables es importante porque permite determinar qué datos se necesitan, cómo deben recolectarse, cómo pueden organizarse y qué tipo de análisis es adecuado realizar.
+=======
+
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
 
     separador
     #t_2_1.titulo-segundo.mb-5
       h2 2.1 Tipos de variables en el análisis de datos
 
+<<<<<<< HEAD
     p.mb-5 De acuerdo con la naturaleza de los datos que representan, las variables pueden clasificarse en cualitativas y cuantitativas.
     
     .tit-doble.mb-5(data-aos="fade-right")
@@ -74,11 +79,14 @@
 
     p.mb-0 Esta clasificación ayuda a determinar la manera más adecuada de registrar, organizar, representar y analizar los datos.
 
+=======
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
     separador
     #t_2_2.titulo-segundo.mb-5
       h2 2.2 Clasificación de las variables según su relación
 
+<<<<<<< HEAD
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         p.mb-4 Cuando el propósito del análisis es estudiar si un factor puede estar relacionado con un determinado resultado, las variables también pueden clasificarse como independientes y dependientes. 
@@ -97,6 +105,18 @@
           img.img-t.img-a(src='@/assets/curso/tema2/3.png', alt='Relación en la que el porcentaje de descuento actúa como variable independiente y la cantidad vendida como variable dependiente.')
 
     p.mb-0 Es importante señalar que encontrar una relación entre dos variables no demuestra automáticamente que una sea la causa de la otra. Para establecer una relación causal se requiere un análisis más riguroso y considerar otros factores que puedan influir en los resultados.
+=======
+
+
+
+
+
+
+
+
+
+
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
 
 </template>

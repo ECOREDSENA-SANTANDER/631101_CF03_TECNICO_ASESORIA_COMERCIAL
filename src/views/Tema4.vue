@@ -7,6 +7,7 @@
         span 4
       h1 Análisis de datos
 
+<<<<<<< HEAD
     .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
       .col-lg-12
         .bloque-texto-g.color-secund.p-3.p-lg-5.p-md-4
@@ -38,12 +39,26 @@
         p.mb-0 Para responderlas pueden utilizarse procedimientos estadísticos, herramientas digitales y diferentes técnicas de análisis, según el tipo y la cantidad de datos disponibles.
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema4/2.png')
+=======
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
 
     separador
     #t_4_1.titulo-segundo.mb-5
       h2 4.1 Antecedentes del análisis de datos
 
+<<<<<<< HEAD
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.mb-lg-0.mb-0.d-none.d-lg-block.pe-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/tema4/3.png')
@@ -79,11 +94,14 @@
 
     p.mb-0 La revisión de antecedentes evita comenzar el análisis sin información previa y proporciona un punto de referencia para comparar los nuevos resultados.
 
+=======
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
     separador
     #t_4_2.titulo-segundo.mb-5
       h2 4.2 Tipos de análisis de datos
 
+<<<<<<< HEAD
     p.mb-4 El tipo de análisis se selecciona de acuerdo con el propósito y las preguntas que se desean responder. Entre los principales se encuentran el descriptivo, diagnóstico, predictivo y prescriptivo.
 
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-left")
@@ -106,11 +124,15 @@
 
     p.mb-0 De esta manera, el análisis de datos no se limita a describir resultados, sino que puede avanzar hacia la comprensión de una situación y la selección de alternativas para la toma de decisiones.
     
+=======
+
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
     separador
     #t_4_3.titulo-segundo.mb-5
       h2 4.3 Técnicas de análisis de datos
 
+<<<<<<< HEAD
     p.mb-4 Son procedimientos utilizados para organizar, explorar, comparar e interpretar los datos con el propósito de obtener información relevante. La técnica seleccionada dependerá del objetivo del análisis, del tipo de variables y de la cantidad y calidad de los datos disponibles.
     p.mb-5 Entre las técnicas que pueden aplicarse se encuentran:
 
@@ -178,6 +200,21 @@
                 :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
               ).mb-0
                 p.mb-0 
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
 
 </template>

@@ -7,6 +7,7 @@
         span 5
       h1 Técnicas de evaluación de la información
 
+<<<<<<< HEAD
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-lg-5.p-md-4
@@ -54,6 +55,16 @@
               p.mb-0 Por ejemplo, si un asesor desea conocer las preferencias de los clientes, no sería suficiente utilizar comentarios publicados hace varios años o información procedente de una fuente desconocida. Será necesario comprobar que los datos sean actuales, pertinentes y confiables antes de utilizarlos para orientar una estrategia comercial.
 
     p.mb-0 La evaluación también permite detectar datos duplicados, incompletos, inconsistentes o poco confiables, los cuales deben revisarse antes de elaborar conclusiones. De esta manera, se disminuye el riesgo de tomar decisiones basadas en información de baja calidad.
+=======
+
+
+
+
+
+
+
+
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
 
 </template>

@@ -7,6 +7,7 @@
         span 3
       h1 Procesamiento de la información
 
+<<<<<<< HEAD
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-lg-5.p-md-4
@@ -32,6 +33,23 @@
     p.mb-4 Durante la revisión y depuración se identifican datos incompletos, duplicados, inconsistentes o incorrectos. Posteriormente, la información se clasifica y organiza según las variables definidas y puede registrarse en tablas, hojas de cálculo, bases de datos u otras herramientas TIC.
 
     p.mb-0 Un adecuado procesamiento permite disponer de información ordenada, consistente y útil, facilitando el análisis posterior y disminuyendo el riesgo de tomar decisiones basadas en datos incompletos o mal organizados.
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
 
 </template>

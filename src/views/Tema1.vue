@@ -9,7 +9,11 @@
       
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
+<<<<<<< HEAD
         .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-lg-5.p-md-4
+=======
+        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require_src('@/assets/curso/tema1/1.png ')})`}"
           )
@@ -20,7 +24,11 @@
             p.mb-0 El crecimiento de internet, las redes sociales, las plataformas digitales y las herramientas tecnológicas ha incrementado considerablemente la cantidad de información disponible y la velocidad con la que esta se genera y comparte.
 
     .row.justify-content-center.align-items-center.mb-0
+<<<<<<< HEAD
       .col-lg-5.d-none.d-lg-block
+=======
+      .col-lg-5
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
         img(src='@/assets/curso/tema1/2.png')
       .col-lg-7
         p.mb-4 Sin embargo, disponer de grandes cantidades de información no significa necesariamente estar mejor informado. En los entornos digitales circulan contenidos confiables junto con información desactualizada, imprecisa, sesgada o falsa. Por esta razón, además de acceder a la información, es necesario desarrollar la capacidad para seleccionarla, verificarla, organizarla, procesarla y analizarla antes de utilizarla para tomar decisiones.
@@ -69,7 +77,11 @@
         .bg3.p-lg-5.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-4
+<<<<<<< HEAD
               img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/7.svg')
+=======
+              img(src='@/assets/curso/tema1/7.svg')
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
             .col-lg-8
               p.mb-4 Por ejemplo, analizar las consultas y compras realizadas por los clientes puede ayudar a determinar cuáles productos tienen mayor demanda y cuáles requieren nuevas estrategias de promoción.
               p.mb-0 Por esta razón, no se trata solamente de recopilar información, sino de determinar qué información se necesita, dónde obtenerla y cómo utilizarla de manera responsable.
@@ -115,36 +127,56 @@
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
+<<<<<<< HEAD
                 .caja-img.mb-0
                   img(src='@/assets/curso/tema1/11.svg')
+=======
+                img.img-a.img-t(src='@/assets/curso/tema1/11.svg')
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
             h4.mb-4.text-center Observación
             p.mb-0.text-center Consiste en registrar hechos, situaciones o comportamientos tal como ocurren.
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
+<<<<<<< HEAD
                 .caja-img.mb-0
                   img(src='@/assets/curso/tema1/12.svg')
+=======
+                img.img-a.img-t(src='@/assets/curso/tema1/12.svg')
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
             h4.mb-4.text-center Entrevista
             p.mb-0.text-center Permite obtener información mediante una conversación orientada por preguntas.
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
+<<<<<<< HEAD
                 .caja-img.mb-0
                   img(src='@/assets/curso/tema1/13.svg')
+=======
+                img.img-a.img-t(src='@/assets/curso/tema1/13.svg')
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
             h4.mb-4.text-center Encuesta
             p.mb-0.text-center Recopila información de varias personas mediante un conjunto de preguntas previamente definidas.
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
+<<<<<<< HEAD
                 .caja-img.mb-0
                   img(src='@/assets/curso/tema1/14.svg')
+=======
+                img.img-a.img-t(src='@/assets/curso/tema1/14.svg')
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
             h4.mb-4.text-center Grupo focal
             p.mb-0.text-center Reúne a varias personas para conocer y analizar sus opiniones, experiencias o percepciones sobre un tema.
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
+<<<<<<< HEAD
                 .caja-img.mb-0
                   img(src='@/assets/curso/tema1/15.svg')
+=======
+                img.img-a.img-t(src='@/assets/curso/tema1/15.svg')
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
             h4.mb-4.text-center Revisión documental
             p.mb-0.text-center Permite recopilar información existente en documentos, informes, registros, bases de datos y otras fuentes disponibles.
     
@@ -154,7 +186,11 @@
     
     
     separador
+<<<<<<< HEAD
     #t_1_5.titulo-segundo.mb-2
+=======
+    #t_1_5.titulo-segundo.mb-5
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
       h2 1.5 Análisis de la información
 
     .row.fd1.fon.mb-0(data-aos="fade-down")
@@ -163,16 +199,34 @@
           .col-lg-8
             .row.justify-content-center.align-items-center.mb-4
               .col-lg-2
+<<<<<<< HEAD
                 img.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/17.svg')
+=======
+                img.img-t(src='@/assets/curso/tema1/17.svg')
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
               .col-lg-10.ps-lg-0
                 p.mb-0 Una vez recopilados y organizados los datos, es necesario analizarlos para identificar patrones, relaciones, diferencias o tendencias que permitan comprender una situación y obtener conclusiones útiles. El tipo de análisis dependerá de las características de la información y del propósito establecido.
             p.mb-4 El análisis cualitativo trabaja principalmente con información expresada mediante palabras, opiniones, experiencias, percepciones o comportamientos. Busca comprender significados, razones y características de una situación. Por ejemplo, analizar los comentarios de los clientes para identificar las principales razones de satisfacción o inconformidad con un servicio.
             p.mb-4 El análisis cuantitativo, por su parte, utiliza datos numéricos y procedimientos estadísticos para medir, comparar e identificar tendencias. Por ejemplo, calcular el porcentaje de clientes satisfechos, comparar las ventas mensuales o determinar cuáles productos presentan mayor participación en las ventas.
             p.mb-0 Ambos enfoques pueden complementarse. Mientras los datos cuantitativos permiten establecer cuánto, con qué frecuencia o en qué proporción ocurre algo, la información cualitativa contribuye a comprender cómo y por qué ocurre. Su adecuada utilización facilita transformar los datos recopilados en información útil para la toma de decisiones comerciales.
+<<<<<<< HEAD
           .col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/tema1/16.png')
 
 
+=======
+          .col-lg-4
+            img(src='@/assets/curso/tema1/16.png')
+
+
+
+
+
+
+
+
+
+>>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 </template>
 
 <script>
