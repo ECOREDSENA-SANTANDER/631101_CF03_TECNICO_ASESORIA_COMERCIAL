@@ -7,7 +7,6 @@
         span 5
       h1 Técnicas de evaluación de la información
 
-<<<<<<< HEAD
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-lg-5.p-md-4
@@ -20,9 +19,9 @@
             br
             p.mb-0 Evaluar la información implica revisar tanto la calidad de los datos como la confiabilidad de las fuentes y la coherencia de los resultados obtenidos. Una información abundante no necesariamente es útil; debe ser pertinente, comprensible, actual y suficientemente confiable para el contexto en el que será utilizada.
 
-    p.mb-4 Para realizar esta evaluación pueden considerarse los siguientes criterios:
+    p.mb-4(data-aos="fade-right") Para realizar esta evaluación pueden considerarse los siguientes criterios:
 
-    ul.lista-ul.mb-5
+    ul.lista-ul.mb-5(data-aos="fade-left")
       li.d-flex.mb-2
         i.fas.fa-user
         p.mb-0 #[b Pertinencia:] determina si la información está relacionada directamente con el propósito o necesidad establecida.
@@ -45,7 +44,7 @@
         i.fas.fa-user
         p.mb-0 #[b Objetividad:] permite identificar si la información presenta los hechos de manera equilibrada o si existen intereses, opiniones o sesgos que puedan influir en su contenido.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg10.p-lg-5.p-4
           .row.justify-content-center.align-items-center.mb-0
@@ -54,17 +53,7 @@
             .col-lg-8
               p.mb-0 Por ejemplo, si un asesor desea conocer las preferencias de los clientes, no sería suficiente utilizar comentarios publicados hace varios años o información procedente de una fuente desconocida. Será necesario comprobar que los datos sean actuales, pertinentes y confiables antes de utilizarlos para orientar una estrategia comercial.
 
-    p.mb-0 La evaluación también permite detectar datos duplicados, incompletos, inconsistentes o poco confiables, los cuales deben revisarse antes de elaborar conclusiones. De esta manera, se disminuye el riesgo de tomar decisiones basadas en información de baja calidad.
-=======
-
-
-
-
-
-
-
-
->>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
+    p.mb-0(data-aos="fade-left") La evaluación también permite detectar datos duplicados, incompletos, inconsistentes o poco confiables, los cuales deben revisarse antes de elaborar conclusiones. De esta manera, se disminuye el riesgo de tomar decisiones basadas en información de baja calidad.
 
 
 </template>

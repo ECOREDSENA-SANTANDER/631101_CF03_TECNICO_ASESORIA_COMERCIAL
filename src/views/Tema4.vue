@@ -7,7 +7,6 @@
         span 4
       h1 Análisis de datos
 
-<<<<<<< HEAD
     .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
       .col-lg-12
         .bloque-texto-g.color-secund.p-3.p-lg-5.p-md-4
@@ -39,26 +38,12 @@
         p.mb-0 Para responderlas pueden utilizarse procedimientos estadísticos, herramientas digitales y diferentes técnicas de análisis, según el tipo y la cantidad de datos disponibles.
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema4/2.png')
-=======
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
 
     separador
     #t_4_1.titulo-segundo.mb-5
       h2 4.1 Antecedentes del análisis de datos
 
-<<<<<<< HEAD
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.mb-lg-0.mb-0.d-none.d-lg-block.pe-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/tema4/3.png')
@@ -68,8 +53,8 @@
           p.mb-4.mx-lg-2 Corresponden a información, estudios, informes, registros o análisis realizados previamente sobre un tema relacionado con la situación que se desea estudiar. Su consulta permite conocer qué información existe, identificar resultados anteriores y disponer de elementos que ayuden a orientar el análisis actual.
           p.mb-0.mx-lg-2 Por ejemplo, antes de analizar la disminución de las ventas de un producto, pueden consultarse informes comerciales de periodos anteriores, registros de ventas, estudios de mercado, reportes de satisfacción del cliente o información sobre el comportamiento del sector.
 
-    p.mb-4 Al revisar los antecedentes es conveniente identificar:
-    ul.lista-ul.mb-4
+    p.mb-4(data-aos="fade-left") Al revisar los antecedentes es conveniente identificar:
+    ul.lista-ul.mb-4(data-aos="fade-right")
       li.d-flex.mb-2
         i.fas.fa-user
         p.mb-0 #[b Autor o entidad responsable:] permite reconocer quién elaboró la información.
@@ -92,17 +77,14 @@
         i.fas.fa-user
         p.mb-0 #[b Pertinencia y actualidad:] ayudan a determinar si la información continúa siendo útil para el propósito establecido.
 
-    p.mb-0 La revisión de antecedentes evita comenzar el análisis sin información previa y proporciona un punto de referencia para comparar los nuevos resultados.
+    p.mb-0(data-aos="fade-left") La revisión de antecedentes evita comenzar el análisis sin información previa y proporciona un punto de referencia para comparar los nuevos resultados.
 
-=======
->>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
     separador
     #t_4_2.titulo-segundo.mb-5
       h2 4.2 Tipos de análisis de datos
 
-<<<<<<< HEAD
-    p.mb-4 El tipo de análisis se selecciona de acuerdo con el propósito y las preguntas que se desean responder. Entre los principales se encuentran el descriptivo, diagnóstico, predictivo y prescriptivo.
+    p.mb-4(data-aos="fade-right") El tipo de análisis se selecciona de acuerdo con el propósito y las preguntas que se desean responder. Entre los principales se encuentran el descriptivo, diagnóstico, predictivo y prescriptivo.
 
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-8
@@ -122,21 +104,17 @@
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema4/6.png')
 
-    p.mb-0 De esta manera, el análisis de datos no se limita a describir resultados, sino que puede avanzar hacia la comprensión de una situación y la selección de alternativas para la toma de decisiones.
+    p.mb-0(data-aos="fade-right") De esta manera, el análisis de datos no se limita a describir resultados, sino que puede avanzar hacia la comprensión de una situación y la selección de alternativas para la toma de decisiones.
     
-=======
-
->>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
     separador
     #t_4_3.titulo-segundo.mb-5
       h2 4.3 Técnicas de análisis de datos
 
-<<<<<<< HEAD
-    p.mb-4 Son procedimientos utilizados para organizar, explorar, comparar e interpretar los datos con el propósito de obtener información relevante. La técnica seleccionada dependerá del objetivo del análisis, del tipo de variables y de la cantidad y calidad de los datos disponibles.
-    p.mb-5 Entre las técnicas que pueden aplicarse se encuentran:
+    p.mb-4(data-aos="fade-left") Son procedimientos utilizados para organizar, explorar, comparar e interpretar los datos con el propósito de obtener información relevante. La técnica seleccionada dependerá del objetivo del análisis, del tipo de variables y de la cantidad y calidad de los datos disponibles.
+    p.mb-5(data-aos="fade-right") Entre las técnicas que pueden aplicarse se encuentran:
 
-    ul.lista-ul.mb-4
+    ul.lista-ul.mb-4(data-aos="fade-left")
       li.d-flex.mb-2
         i.fas.fa-user
         p.mb-0 #[b Tabulación:] organiza los datos en tablas para facilitar su lectura y comparación.
@@ -162,13 +140,13 @@
         i.fas.fa-user
         p.mb-0 #[b Cruce de variables:] permite explorar posibles relaciones entre dos o más características, por ejemplo, entre edad del cliente y canal de compra preferido.
 
-    p.mb-5 Actualmente, las herramientas TIC facilitan estas actividades mediante hojas de cálculo, bases de datos, sistemas de gestión de clientes (CRM), herramientas de inteligencia de negocios y aplicaciones para la representación y análisis de información.
+    p.mb-5(data-aos="fade-right") Actualmente, las herramientas TIC facilitan estas actividades mediante hojas de cálculo, bases de datos, sistemas de gestión de clientes (CRM), herramientas de inteligencia de negocios y aplicaciones para la representación y análisis de información.
 
     .tit-doble.mb-5(data-aos="fade-right")
       img.tit-doble__ico(:src="require_src('@/assets/curso/tema2/ico.svg')")
       h3 #[em Big data] y minería de datos
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .bg8.p-lg-5.p-4
           .row.justify-content-center.align-items-center.mb-0
@@ -178,7 +156,7 @@
             .col-lg-4
               img.img-t.img-a(src='@/assets/curso/tema4/7.svg')
 
-    p.mb-5 La minería de datos, por su parte, comprende técnicas orientadas a explorar conjuntos de datos para descubrir patrones, relaciones o tendencias que pueden no ser evidentes inicialmente. Por ejemplo, una empresa podría analizar sus registros de compra para identificar productos que suelen adquirirse conjuntamente o determinados comportamientos de sus clientes.
+    p.mb-5(data-aos="fade-right") La minería de datos, por su parte, comprende técnicas orientadas a explorar conjuntos de datos para descubrir patrones, relaciones o tendencias que pueden no ser evidentes inicialmente. Por ejemplo, una empresa podría analizar sus registros de compra para identificar productos que suelen adquirirse conjuntamente o determinados comportamientos de sus clientes.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
@@ -200,21 +178,6 @@
                 :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
               ).mb-0
                 p.mb-0 
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> e09f3d3994b57891326e8fc7e0543ac5a9e00329
 
 
 </template>
